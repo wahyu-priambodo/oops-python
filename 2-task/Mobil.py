@@ -287,9 +287,12 @@ class Menu:
       if pengajuan == "yes":
         print("\n-> Pengajuan kredit kami approve ya kak. Terima kasih sudah berbelanja!\n")
       # jika dokumen persyaratan belum lengkap, maka pengajuan kreditnya ditolak (pending)
-      else:
+      elif pengajuan == "no":
         print("\n-> Maaf, pengajuan kredit sementara kami pending dulu ya kak\n"
               "-> Silahkan melengkapi semua dokumen persyaratannya dulu yaa. Terima kasih!\n")
+      else:
+        print("-> Maaf, inputnya gak sesuai kak!\n")
+        
     # jika pilihan kredit != 1 atau 2, maka tampilkan pesan error
     else:
       print("-> Maaf, inputnya gak sesuai kak!\n")
