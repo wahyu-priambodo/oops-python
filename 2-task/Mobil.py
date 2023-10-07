@@ -241,7 +241,6 @@ class Menu:
   
   # method untuk menampilkan menu
   def pilihan1():
-    print()
     # menampilkan nama, tipe, model, dan harga mobil
     print("\nDaftar Mobil & Harga:")
     Mobil.tampilkan_semua_mobil(list_semua_mobil)
@@ -291,7 +290,7 @@ class Menu:
         print("\n-> Maaf, pengajuan kredit sementara kami pending dulu ya kak\n"
               "-> Silahkan melengkapi semua dokumen persyaratannya dulu yaa. Terima kasih!\n")
       else:
-        print("-> Maaf, inputnya gak sesuai kak!\n")
+        print("\n-> Maaf, inputnya gak sesuai kak!\n")
         
     # jika pilihan kredit != 1 atau 2, maka tampilkan pesan error
     else:
