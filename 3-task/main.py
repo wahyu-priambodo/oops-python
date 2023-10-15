@@ -10,7 +10,7 @@ if __name__ == "__main__":
   while True:
     os.system("clear") if os.name == "posix" else os.system("cls") # untuk clear screen terminal/cmd
     AppMenu.tampilkan_menu() # di awal, tampilkan menu terlebih dahulu
-    pilihan_menu = int(input("Pilih menu (1-8): ")) # buat objek AppMenu dari input user
+    pilihan_menu = int(input("Pilih menu (1-8): ")) # pilih menu
     
     # menjalankan menu sesuai pilihan user
     if pilihan_menu == 1:
